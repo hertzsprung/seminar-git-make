@@ -1,5 +1,8 @@
-Gain control of your documents and code: hands-on with revision control and build automation
-============================================================================================
+Gain control of your documents and code
+=======================================
+
+Hands-on with revision control and build automation
+---------------------------------------------------
 
 Keeping track of your LaTeX documents and source code is difficult.  Your code worked yesterday but today it's mysteriously broken.  How fast can you find the bug?  You want to change a model parameter so you'll need to redraw some graphs.  But which ones?
 
@@ -7,4 +10,5 @@ This seminar gives a live demonstration of tools that can answer these questions
 
 Together, `git` and `make` let you spend less time fighting your computer and more time doing science.
 
-Image: https://octodex.github.com/labtocat/
+![Labtocat]
+(https://octodex.github.com/images/labtocat.png)
