@@ -1,0 +1,63 @@
+intro
+=====
+hands up who's broken code and not known why
+hands up who has to collaborate on projects with other people
+hands up who gets paranoid that all their graphs are up-to-date when including them in a report
+
+- git: a revision control system
+- make: a build automation tool
+
+git
+===
+concepts
+--------
+- repository
+- commit
+
+demonstration
+-------------
+mkdir myproject
+cd myproject
+git init
+vi my_report.txt (write a couple of lines of text)
+git status
+git add my_report.txt
+git status
+git commit -m "initial revision of my report"
+git status
+git log
+vi my_report.txt (modify a line, add a line, delete a line)
+git status
+git add my_report.txt
+git commit -m "a modification to my report"
+git log
+git diff --word-diff (copy commit hashes)
+TODO: rollback to previous version
+
+distribution with github
+------------------------
+(with a repo that's already set up)
+- commit some stuff
+- push
+- view on github
+- move to different terminal (with different background colour?)
+- pull
+
+make
+====
+concepts
+--------
+rule
+target
+prerequisite
+commands
+
+demonstration
+-------------
+a data file with some x-y data
+a small python source file that creates a scatter plot of the data (as a pdf)
+a LaTeX document that includes the graph
+
+WRAP-UP
+=======
+TODO
