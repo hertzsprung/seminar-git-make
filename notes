@@ -32,7 +32,11 @@ git add my_report.txt
 git commit -m "a modification to my report"
 git log
 git diff --word-diff (copy commit hashes)
-TODO: rollback to previous version
+git checkout <hash> -- my_report.txt
+git status
+git diff --staged
+git commit -m "rollback change to report"
+git log
 
 distribution with github
 ------------------------
