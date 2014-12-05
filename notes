@@ -59,7 +59,7 @@ commands
 demonstration
 -------------
 a data file with some x-y data
-a small python source file that creates a scatter plot of the data (as a pdf)
+a small python source file that creates a line plot of the data (as a pdf)
 a LaTeX document that includes the graph
 
 WRAP-UP
