@@ -19,4 +19,4 @@ heathrow-sun.pdf: plot-sun.py heathrow-sun.dat
 	./plot-sun.py < heathrow-sun.dat
 
 clean:
-	rm *.aux *.log *.pdf
+	rm -f *.aux *.log *.pdf
